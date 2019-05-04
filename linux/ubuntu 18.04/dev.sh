@@ -1,0 +1,1 @@
+sudo npm i -g @vue/cli cordova @ionic/vue @ionic/core ionic
