@@ -1,0 +1,4 @@
+### THIS FILE IS AUTOMATICALLY CONFIGURED ###
+# You may comment out this entry, but any other modifications may be lost.
+deb http://dell.archive.canonical.com/updates bionic-dell public
+deb http://dell.archive.canonical.com/updates bionic-dell-bionic-master-nvidia-sanity public
