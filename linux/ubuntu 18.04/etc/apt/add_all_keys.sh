@@ -21,5 +21,11 @@ wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x4A71B51882788FD2
 wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x4DEA8909DC6A13A3" -O- | sudo apt-key add - 
 ## mysql ##
 wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5" -O- | sudo apt-key add -  
+## git lfs ##
+wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x6B05F25D762E3157" -O- | sudo apt-key add -
+## steam ##
+wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF24AEA9FB05498B7" -O- | sudo apt-key add -
+## insomnia ##
+wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x379CE192D401AB61" -O- | sudo apt-key add -
 ## atualiza repositorio ##
 sudo -E apt update
