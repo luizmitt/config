@@ -1,3 +1,21 @@
 [user]
-	email = lzschmitt@gmail.com
 	name = luizschmitt
+	email = lzschmitt@gmail.com
+[core]
+	editor = vim
+	excludesfile = /home/luiz/.gitignore
+[merge]
+	tool = vimdiff
+[credential]
+ # 1h -> 3600
+ # 2h -> 7200
+ # 4h -> 14400
+ # 6h -> 21600
+ # 8h -> 28800
+ 	helper = cache --timeout=14400
+[credential "https://github.com"]
+	username = luizschmitt
+[credential "https://gitlab.com"]
+	username = luizschmitt
+[credential "https://bitbucket.org"]
+	username = luizschmitt
