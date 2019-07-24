@@ -1,6 +1,8 @@
 ### THIS FILE IS AUTOMATICALLY CONFIGURED ###
 # You may comment out entries below, but any other modifications may be lost.
 # Use command 'dpkg-reconfigure mysql-apt-config' as root for modifications.
+# wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x8C718D3B5072E1F5" -O- | sudo apt-key add -  
+#  apt install mysql-workbench-community 
 deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-apt-config
 deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-8.0
 deb http://repo.mysql.com/apt/ubuntu/ bionic mysql-tools
