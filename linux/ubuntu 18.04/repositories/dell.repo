@@ -1,5 +1,0 @@
-## dell repository ##
-sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-dell public'
-sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-dell-bionic-master-nvidia-sanity public'
-sudo apt update
-sudo apt upgrade -y

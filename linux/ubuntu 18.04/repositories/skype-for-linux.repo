@@ -1,5 +1,0 @@
-## skypeforlinux ##
-wget -q https://repo.skype.com/data/SKYPE-GPG-KEY -O- | sudo apt-key add -
-sudo add-apt-repository "deb [arch=amd64] https://repo.skype.com/deb stable main"
-sudo apt update
-sudo apt install skypeforlinux

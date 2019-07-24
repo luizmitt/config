@@ -1,5 +1,0 @@
-## adding new key ##
-sudo gpg --keyserver pool.sks-keysrvers.net --recv-key {KEY}
-sudo gpg -a --export {KEY} | sudo apt-key-add -
-sudo apt update
-sudo apt upgrade
