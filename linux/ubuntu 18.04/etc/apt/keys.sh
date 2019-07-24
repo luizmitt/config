@@ -29,3 +29,5 @@ wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xF24AEA9FB05498B7
 wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x379CE192D401AB61" -O- | sudo apt-key add -
 ## atualiza repositorio ##
 sudo -E apt update
+## brave key
+wget -q "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x4FE13824E3FFC656" -O- | sudo apt-key add -
